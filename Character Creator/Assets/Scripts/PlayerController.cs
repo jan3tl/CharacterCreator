@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
    public SpriteRenderer ArmorRenderer;
    public SpriteRenderer WeaponRenderer;
+   public GameObject WeaponShop;
+   public GameObject ArmorShop;
 
    public void SetArmor(Sprite newSprite)
    {
