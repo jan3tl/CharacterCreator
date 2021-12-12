@@ -6,11 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public SpriteRenderer ArmorRenderer;
     public SpriteRenderer WeaponRenderer;
-    public GameObject MagicRenderer;
-    public ParticleSystem Bacteria;
-    public ParticleSystem Cryokinesis;
-    public ParticleSystem Pyrokinesis;
-    public ParticleSystem Hydrokinesis;
+
+
     
 
 
@@ -27,11 +24,6 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        //this.MagicRenderer.gameObject.SetActive(false);
-        this.Cryokinesis.Stop(true);
-        this.Hydrokinesis.Stop(true);
-        this.Pyrokinesis.Stop(true);
-        this.Bacteria.Stop(true);
 
     }
 
