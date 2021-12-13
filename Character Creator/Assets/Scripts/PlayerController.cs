@@ -7,11 +7,6 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer ArmorRenderer;
     public SpriteRenderer WeaponRenderer;
 
-
-    
-
-
-
     public void SetArmor(Sprite newSprite)
     {
         ArmorRenderer.sprite = newSprite;
